@@ -1,0 +1,340 @@
+kro1067er@cosmos2:~/git/MNXB11-homework/homework5\[?2004h[ro1067er@cosmos2 homework5]$ scren -list
+[?2004lbash: scren: command not found...
+kro1067er@cosmos2:~/git/MNXB11-homework/homework5\[?2004h[ro1067er@cosmos2 homework5]$ screen .[K-list
+[?2004lThere is a screen on:
+	168265.pts-3.cosmos2	(Attached)
+1 Socket in /run/screen/S-ro1067er.
+kro1067er@cosmos2:~/git/MNXB11-homework/homework5\[?2004h[ro1067er@cosmos2 homework5]$ exit
+[?2004lexit
+kro1067er@cosmos2:~/git/MNXB11-homework/homework5\[?2004h[ro1067er@cosmos2 homework5]$ cd ls[K[Kgit/M[K[K[K[K[K[K[K[Kls
+[?2004l[0m[01;32mro1067er-homework5-solution.sh[0m  screenlog.0  slurm-80169.out
+kro1067er@cosmos2:~/git/MNXB11-homework/homework5\[?2004h[ro1067er@cosmos2 homework5]$ ls[K[Ksbatch ro1067er-homework5-solution.sh 
+[?2004lSubmitted batch job 80173
+kro1067er@cosmos2:~/git/MNXB11-homework/homework5\[?2004h[ro1067er@cosmos2 homework5]$ sbatch ro1067er-homework5-solution.sh 
+[?2004lSubmitted batch job 80174
+kro1067er@cosmos2:~/git/MNXB11-homework/homework5\[?2004h[ro1067er@cosmos2 homework5]$ sbatch ro1067er-homework5-solution.sh 
+[?2004lSubmitted batch job 80175
+kro1067er@cosmos2:~/git/MNXB11-homework/homework5\[?2004h[ro1067er@cosmos2 homework5]$ squeue
+[?2004l             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+             75044   gpua100 SO265_12     hlhh PD       0:00      1 (AssocGrpMemLimit)
+             75045   gpua100 SO109_10     hlhh PD       0:00      1 (AssocGrpMemLimit)
+             75041   gpua100 SO113_87     hlhh  R    4:17:54      1 cg08
+             74505   gpua100 SO73_830     hlhh  R 1-08:07:28      1 cg10
+             75032   gpua100 SO61_650     hlhh  R   18:04:48      1 cg12
+             73795   gpua100 SO109_10     hlhh  R 3-04:49:10      1 cg07
+             73797   gpua100 SO65_810     hlhh  R 3-04:47:21      1 cg09
+             75030   gpua100 SO41_540     hlhh  R 1-07:10:56      1 cg11
+             75005  gpua100i SO13_320     hlhh PD       0:00      1 (AssocGrpMemLimit)
+             75018  gpua100i SO65_970     hlhh PD       0:00      1 (AssocGrpMemLimit)
+             74502  gpua100i SO73_115     hlhh  R 1-08:35:52      1 cg19
+             74993  gpua100i SO257_16     hlhh  R 1-00:04:53      1 cg20
+             74977  gpua100i SO365_27     hlhh  R 1-07:51:33      1 cg21
+             74992  gpua100i SO257_16     hlhh  R 1-07:38:27      1 cg18
+             80150    gpua40     lhpc     vida  R      28:04      1 cg01
+             80170       hep _interac pflorido  R       8:02      1 cx04
+             74733      lu32 halo714_   cadiou  R 2-00:40:37      2 cn[196-197]
+             75040      lu32 halo714_   cadiou  R 1-07:13:52      2 cn[198-199]
+             69506      lu48 guess_ap ad3021gu PD       0:00      1 (DependencyNeverSatisfied)
+             69504      lu48 guess_ap ad3021gu PD       0:00      1 (DependencyNeverSatisfied)
+             69184      lu48 guess_ap ad3021gu PD       0:00      1 (DependencyNeverSatisfied)
+             70861      lu48 Hst3HSPS    osven PD       0:00      8 (AssocGrpCpuLimit)
+             70862      lu48 Hst3HSPS    osven PD       0:00      8 (AssocGrpCpuLimit)
+             70910      lu48 PCPS_H_5  amandae PD       0:00      8 (AssocGrpCpuLimit)
+             72383      lu48 Hst3HSPC    osven PD       0:00      8 (AssocGrpCpuLimit)
+             72384      lu48 Hst3HSPS    osven PD       0:00      8 (AssocGrpCpuLimit)
+             68126      lu48 PCPS_M17  amandae PD       0:00      8 (AssocGrpCpuLimit)
+             74129      lu48 c11LtzA- maryam42 PD       0:00      1 (AssocGrpCpuLimit)
+             74382      lu48   c11LAH maryam42 PD       0:00      1 (AssocGrpCpuLimit)
+             74384      lu48  6L9tzAH maryam42 PD       0:00      1 (AssocGrpCpuLimit)
+             74385      lu48  6L9tzA- maryam42 PD       0:00      1 (AssocGrpCpuLimit)
+             74963      lu48  2HLAHtz maryam42 PD       0:00      1 (AssocGrpCpuLimit)
+             74964      lu48  2HLA-tz maryam42 PD       0:00      1 (AssocGrpCpuLimit)
+             74965      lu48  6L5tzA- maryam42 PD       0:00      1 (AssocGrpCpuLimit)
+ 79825_[1972-2000]      lu48 s02_mmse  aegorov PD       0:00      1 (Resources)
+        77354_1877      lu48 s02_mmse  aegorov PD       0:00      1 (Priority)
+             79887      lu48 7LUbtzA- maryam42 PD       0:00      1 (AssocGrpCpuLimit)
+             79906      lu48 c2LbtzNA maryam42 PD       0:00      1 (AssocGrpCpuLimit)
+             79909      lu48 c2LbtzNA maryam42 PD       0:00      1 (AssocGrpCpuLimit)
+             79912      lu48 c6L5tzAH maryam42 PD       0:00      1 (AssocGrpCpuLimit)
+             79924      lu48 c7LWHtzA maryam42 PD       0:00      1 (AssocGrpCpuLimit)
+             79931      lu48 c7LWHtzA maryam42 PD       0:00      1 (AssocGrpCpuLimit)
+             79946      lu48 c7LWUtzA maryam42 PD       0:00      1 (AssocGrpCpuLimit)
+             79953      lu48 c7LUtzA- maryam42 PD       0:00      1 (AssocGrpCpuLimit)
+             79957      lu48 c7LMtzAH maryam42 PD       0:00      1 (AssocGrpCpuLimit)
+             79958      lu48 c7LMtzA- maryam42 PD       0:00      1 (AssocGrpCpuLimit)
+             79961      lu48  c8LDA-b maryam42 PD       0:00      1 (AssocGrpCpuLimit)
+             79965      lu48  c9LtzA- maryam42 PD       0:00      1 (AssocGrpCpuLimit)
+             80175      lu48 first_jo ro1067er  R       0:05      1 cn024
+             80174      lu48 first_jo ro1067er  R       0:08      1 cn024
+             80173      lu48 first_jo ro1067er  R       0:27      1 cn002
+             80041      lu48   axo_CR  leighnd  R    3:39:05      1 cn174
+             80040      lu48   axo_CR  leighnd  R    3:39:20      1 cn136
+             79960      lu48   axo_CR  leighnd  R    5:21:16      1 cn026
+             80071      lu48 L_9.41_3 gtesei00  R    2:36:55      1 cn001
+             80072      lu48 M_9.41_3 gtesei00  R    2:36:55      1 cn024
+             80073      lu48 S_9.41_3 gtesei00  R    2:36:55      1 cn096
+             80074      lu48 La_9.41_ gtesei00  R    2:36:55      1 cn096
+             80075      lu48 Lb_9.41_ gtesei00  R    2:36:55      1 cn096
+             80076      lu48 Lc_9.41_ gtesei00  R    2:36:55      1 cn096
+             80077      lu48 Ld_9.41_ gtesei00  R    2:36:55      1 cn096
+             80078      lu48 Le_9.41_ gtesei00  R    2:36:55      1 cn096
+             80109      lu48  vikings nimamohs  R    1:49:28      4 cn[118-121]
+             79856      lu48 f20_07fd   agertz  R    6:21:24      2 cn[007-008]
+             79853      lu48 f40_07fd   agertz  R    6:24:17      2 cn[004,090]
+             79848      lu48      f40   agertz  R    6:35:09      2 cn[049-050]
+             79852      lu48 f60_07fd   agertz  R    6:29:34      2 cn[013,135]
+             79846      lu48      f60   agertz  R    6:49:17      2 cn[017,042]
+             80155      lu48 no-relax  sattars  R      18:45      2 cn[059,134]
+             73849      lu48 job.sbat   valera  R 3-03:05:47      1 cn014
+             74521      lu48 job.sbat   valera  R 1-11:30:36      1 cn087
+             75052      lu48 job.sbat   valera  R 1-06:56:09      1 cn014
+             80122      lu48 job.sbat   valera  R      55:43      1 cn027
+             79822      lu48 T08S48A5   szrobi  R    7:29:24      2 cn[031,158]
+             79821      lu48 T08S48A0   szrobi  R    7:30:55      2 cn[156-157]
+             79819      lu48 R08S48A5   szrobi  R    7:32:23      2 cn[154-155]
+             79818      lu48 R08S48A0   szrobi  R    7:35:22      2 cn[152-153]
+             71388      lu48      sub      jan  R 6-08:56:55      1 cn056
+             71458      lu48      sub      jan  R 6-06:03:30      1 cn024
+             71455      lu48      sub      jan  R 6-06:04:57      1 cn024
+             71451      lu48      sub      jan  R 6-06:15:46      1 cn056
+             73874      lu48      sub      jan  R 3-02:34:48      1 cn096
+             73873      lu48      sub      jan  R 3-02:35:03      1 cn096
+             73872      lu48      sub      jan  R 3-02:35:27      1 cn096
+             73871      lu48      sub      jan  R 3-02:36:03      1 cn096
+             73869      lu48      sub      jan  R 3-02:36:51      1 cn056
+             73867      lu48      sub      jan  R 3-02:37:38      1 cn056
+             73865      lu48      sub      jan  R 3-02:37:53      1 cn056
+             73864      lu48      sub      jan  R 3-02:38:09      1 cn056
+             73863      lu48      sub      jan  R 3-02:38:21      1 cn056
+             73778      lu48  acharya pacharya  R 3-05:16:15      1 cn173
+             74609      lu48  acharya pacharya  R 1-09:49:56      1 cn087
+             80107      lu48      sub      jan  R    1:50:40      1 cn072
+             80106      lu48      sub      jan  R    1:50:51      1 cn072
+             80105      lu48      sub      jan  R    1:51:11      1 cn072
+             80102      lu48      sub      jan  R    1:52:07      1 cn072
+             80101      lu48      sub      jan  R    1:52:34      1 cn072
+             80100      lu48      sub      jan  R    1:53:04      1 cn072
+             79941      lu48      sub      jan  R    5:37:34      1 cn024
+             79943      lu48      sub      jan  R    5:37:34      1 cn024
+             80022      lu48      sub      jan  R    3:58:11      1 cn002
+             80020      lu48      sub      jan  R    3:58:27      1 cn002
+             79955      lu48      sub      jan  R    5:32:04      1 cn024
+             79954      lu48      sub      jan  R    5:32:44      1 cn024
+             79950      lu48      sub      jan  R    5:35:11      1 cn024
+             79948      lu48      sub      jan  R    5:36:03      1 cn024
+             79947      lu48      sub      jan  R    5:36:14      1 cn024
+             79932      lu48      sub      jan  R    5:39:34      1 cn024
+             79935      lu48      sub      jan  R    5:39:34      1 cn024
+             79936      lu48      sub      jan  R    5:39:34      1 cn024
+             79927      lu48      sub      jan  R    5:41:34      1 cn014
+             79928      lu48      sub      jan  R    5:41:34      1 cn014
+             79929      lu48      sub      jan  R    5:41:34      1 cn014
+             79930      lu48      sub      jan  R    5:41:34      1 cn024
+             79160      lu48      sub      jan  R    9:28:47      1 cn024
+             79159      lu48      sub      jan  R    9:30:03      1 cn024
+             80048      lu48      sub      jan  R    3:29:52      1 cn056
+             80047      lu48      sub      jan  R    3:30:02      1 cn056
+             80033      lu48      sub      jan  R    3:50:40      1 cn056
+             80032      lu48      sub      jan  R    3:50:54      1 cn056
+             80031      lu48      sub      jan  R    3:51:25      1 cn056
+             80029      lu48      sub      jan  R    3:52:31      1 cn024
+             80028      lu48      sub      jan  R    3:52:43      1 cn024
+             80027      lu48      sub      jan  R    3:53:24      1 cn002
+             80024      lu48      sub      jan  R    3:56:34      1 cn002
+             79942      lu48 pr_l3ang  zakiyeh  R    5:37:34      1 cn001
+             79944      lu48 pr_l3ang  zakiyeh  R    5:37:34      1 cn001
+             79945      lu48 pr_l3ang  zakiyeh  R    5:37:34      1 cn001
+             79864      lu48 pr_l3ang  zakiyeh  R    6:31:36      1 cn027
+             79865      lu48 pr_l3ang  zakiyeh  R    6:31:36      1 cn027
+             79866      lu48 pr_l3ang  zakiyeh  R    6:31:36      1 cn027
+             79916      lu48 pr_l3ang  zakiyeh  R    5:47:34      1 cn027
+             79914      lu48 pr_l3ang  zakiyeh  R    5:48:34      1 cn027
+             79913      lu48 pr_l3ang  zakiyeh  R    5:49:05      1 cn027
+             79902      lu48 pr_l3ang  zakiyeh  R    6:01:32      1 cn027
+             79900      lu48 pr_l3ang  zakiyeh  R    6:02:04      1 cn027
+             79899      lu48 pr_l3ang  zakiyeh  R    6:02:36      1 cn027
+             79897      lu48 pr_l3ang  zakiyeh  R    6:04:28      1 cn027
+             79896      lu48 pr_l3ang  zakiyeh  R    6:04:59      1 cn027
+             79895      lu48 pr_l3ang  zakiyeh  R    6:05:29      1 cn027
+             79858      lu48 pr_l3ang  zakiyeh  R    6:39:37      1 cn027
+             79859      lu48 pr_l3ang  zakiyeh  R    6:39:37      1 cn027
+             79860      lu48 pr_l3ang  zakiyeh  R    6:39:37      1 cn027
+             79845      lu48 pr_l3ang  zakiyeh  R    6:56:22      1 cn027
+             79800      lu48 pr_l3ang  zakiyeh  R    7:55:47      1 cn027
+             75085      lu48 MV-patsp  leachri  R 1-05:12:47      1 cn016
+             79807      lu48 ABQchord  leachri  R    7:48:57      1 cn060
+             79595      lu48   lbswim   fk1jst  R    8:11:01      1 cn059
+             79592      lu48   lbswim   fk1jst  R    8:11:44      1 cn059
+             79591      lu48   lbswim   fk1jst  R    8:12:23      1 cn059
+             73785      lu48 NEB-rh-L     iria  R 3-05:07:11      1 cn138
+             74737      lu48 NEB-rh-L     iria  R 2-01:45:29      1 cn061
+             73768      lu48    qprod     iria  R 3-05:30:50      1 cn014
+             73767      lu48    qprod     iria  R 3-05:31:12      1 cn014
+             73711      lu48    qprod     iria  R 3-07:02:30      1 cn063
+             73709      lu48    qprod     iria  R 3-07:04:24      1 cn056
+             74655      lu48    qprod     iria  R 2-01:26:07      1 cn061
+             74412      lu48    f50v3   agertz  R 2-08:08:07      3 cn[109-110,139]
+             74979      lu48 f40hires   agertz  R 1-07:59:54      2 cn[085-086]
+             75037      lu48 ru-3-cha     iria  R 1-07:16:16      1 cn178
+             73770      lu48    qprod     iria  R 1-10:49:43      1 cn058
+             75937      lu48 NEB-rh-L     iria  R 1-02:43:30      1 cn127
+             75768      lu48 NEB-rh-L     iria  R 1-02:51:50      1 cn129
+             75028      lu48      sub      jan  R 1-07:29:15      1 cn002
+             75027      lu48      sub      jan  R 1-07:29:18      1 cn002
+             75026      lu48      sub      jan  R 1-07:29:25      1 cn002
+             75025      lu48      sub      jan  R 1-07:29:28      1 cn002
+             75024      lu48      sub      jan  R 1-07:29:33      1 cn002
+             75023      lu48      sub      jan  R 1-07:29:38      1 cn002
+             75022      lu48      sub      jan  R 1-07:29:41      1 cn002
+             75021      lu48      sub      jan  R 1-07:29:46      1 cn002
+             75020      lu48      sub      jan  R 1-07:29:49      1 cn002
+             75015      lu48      sub      jan  R 1-07:33:18      1 cn136
+             75014      lu48      sub      jan  R 1-07:33:24      1 cn112
+             75013      lu48      sub      jan  R 1-07:33:37      1 cn112
+             75012      lu48      sub      jan  R 1-07:33:40      1 cn112
+             75011      lu48      sub      jan  R 1-07:33:47      1 cn096
+             75010      lu48      sub      jan  R 1-07:33:56      1 cn096
+             75009      lu48      sub      jan  R 1-07:33:59      1 cn096
+             75008      lu48      sub      jan  R 1-07:34:04      1 cn096
+             75007      lu48      sub      jan  R 1-07:34:07      1 cn072
+             76100      lu48      sub      jan  R 1-02:35:05      1 cn058
+             76096      lu48      sub      jan  R 1-02:35:19      1 cn014
+             76092      lu48      sub      jan  R 1-02:35:32      1 cn172
+             76091      lu48      sub      jan  R 1-02:35:46      1 cn136
+             76086      lu48      sub      jan  R 1-02:36:30      1 cn136
+             76084      lu48      sub      jan  R 1-02:36:46      1 cn056
+             76078      lu48      sub      jan  R 1-02:36:57      1 cn002
+             76073      lu48      sub      jan  R 1-02:37:12      1 cn002
+             76065      lu48      sub      jan  R 1-02:37:25      1 cn002
+             77219      lu48      sub      jan  R 1-00:31:49      1 cn096
+             77218      lu48      sub      jan  R 1-00:31:59      1 cn072
+             77217      lu48      sub      jan  R 1-00:32:21      1 cn072
+             77216      lu48      sub      jan  R 1-00:32:31      1 cn072
+             77215      lu48      sub      jan  R 1-00:32:44      1 cn072
+             77214      lu48      sub      jan  R 1-00:32:55      1 cn072
+             77213      lu48      sub      jan  R 1-00:33:13      1 cn072
+             77212      lu48      sub      jan  R 1-00:33:42      1 cn072
+             77211      lu48      sub      jan  R 1-00:33:51      1 cn072
+             74976      lu48 viscE3_m   trulle  R 1-08:14:06      1 cn084
+             74975      lu48 viscE3_m   trulle  R 1-08:17:04      1 cn084
+             74974      lu48 viscE3_m   trulle  R 1-08:17:29      1 cn084
+             74973      lu48 viscE3_m   trulle  R 1-08:18:32      1 cn059
+             74972      lu48 viscE3_m   trulle  R 1-08:19:07      1 cn059
+             74971      lu48 Attr500_   trulle  R 1-08:21:21      1 cn027
+             72591      lu48 fe-3-cha     iria  R 5-06:39:34      1 cn178
+             68150      lu48 Hst3HSPC    osven  R 5-06:24:42      8 cn[039-040,043-047,057]
+             68149      lu48 Hst3HSPC    osven  R 5-08:30:42      8 cn[074-081]
+             70860      lu48 Hst3HSPS    osven  R    9:52:49      8 cn[018-021,023,025,029-030]
+             70908      lu48 PCPS_H_4  amandae  R    9:50:34      8 cn[160-166,170]
+             74127      lu48 c11LtzAH maryam42  R   12:44:08      1 cn125
+             80164      lu48 runMaste nat12nho  R       6:04      8 cn[003,015,068,111,122,126,128,169]
+             70907      lu48 PCPS_H_3  amandae  R 5-06:24:42      8 cn[097-104]
+             70906      lu48 PCPS_H_2  amandae  R 5-08:30:42      8 cn[141-148]
+             74125      lu48  c9LtzAH maryam42  R   22:43:56      1 cn149
+             74120      lu48 c8LDtzA- maryam42  R 1-00:04:54      1 cn180
+             74040      lu48 6L5tzbAH maryam42  R 1-11:34:29      1 cn107
+             74022      lu48 c2DLAHtz maryam42  R 1-17:39:37      1 cn022
+             72925      lu48 7LMtzbA- maryam42  R 3-17:55:09      1 cn073
+             72924      lu48 7LMtzbAH maryam42  R 3-19:15:14      1 cn168
+             72922      lu48 7LWUbtzA maryam42  R 3-20:04:46      1 cn106
+             72917      lu48 7LWbtzHA maryam42  R 4-00:56:44      1 cn130
+             72920      lu48 7LWHbtzA maryam42  R 4-00:56:15      1 cn167
+           73738_1      lu48 freqsin_ mkoushik  R 2-01:26:07      1 cn026
+           73738_2      lu48 freqsin_ mkoushik  R 3-06:05:16      1 cn001
+           73738_3      lu48 freqsin_ mkoushik  R 3-06:05:16      1 cn001
+           73738_4      lu48 freqsin_ mkoushik  R 3-06:05:16      1 cn001
+           73738_5      lu48 freqsin_ mkoushik  R 3-06:05:16      1 cn001
+             72905      lu48  12LAHtz maryam42  R 4-07:02:42      1 cn091
+             72906      lu48  12IA-tz maryam42  R 4-07:02:42      1 cn092
+             72913      lu48 2LbtzNAH maryam42  R 4-07:02:42      1 cn093
+             72914      lu48 2LbtzNA- maryam42  R 4-07:02:42      1 cn094
+        79825_1971      lu48 s02_mmse  aegorov  R       1:27      1 cn033
+        79825_1970      lu48 s02_mmse  aegorov  R      11:27      1 cn069
+             73781      lu48 8LDbtzA- maryam42  R 2-15:05:13      1 cn035
+        79825_1969      lu48 s02_mmse  aegorov  R      13:42      1 cn011
+        79825_1966      lu48 s02_mmse  aegorov  R      17:37      1 cn067
+        79825_1967      lu48 s02_mmse  aegorov  R      17:37      1 cn070
+        79825_1968      lu48 s02_mmse  aegorov  R      17:37      1 cn071
+        79825_1965      lu48 s02_mmse  aegorov  R      25:05      1 cn114
+        79825_1964      lu48 s02_mmse  aegorov  R      25:12      1 cn051
+        79825_1963      lu48 s02_mmse  aegorov  R      25:20      1 cn006
+        79825_1962      lu48 s02_mmse  aegorov  R      28:04      1 cn010
+        79825_1961      lu48 s02_mmse  aegorov  R      34:43      1 cn048
+        79825_1960      lu48 s02_mmse  aegorov  R      34:49      1 cn105
+        79825_1959      lu48 s02_mmse  aegorov  R      34:51      1 cn066
+        79825_1958      lu48 s02_mmse  aegorov  R      34:56      1 cn005
+        79825_1957      lu48 s02_mmse  aegorov  R      45:56      1 cn133
+        79825_1956      lu48 s02_mmse  aegorov  R      50:05      1 cn089
+        79825_1955      lu48 s02_mmse  aegorov  R      50:39      1 cn159
+        79825_1954      lu48 s02_mmse  aegorov  R      53:48      1 cn108
+        79825_1952      lu48 s02_mmse  aegorov  R    1:01:29      1 cn009
+             73764      lu48 11LA-tzb maryam42  R 2-16:39:17      1 cn088
+        79825_1947      lu48 s02_mmse  aegorov  R    1:45:31      1 cn032
+        79825_1939      lu48 s02_mmse  aegorov  R    2:45:11      1 cn034
+             72791      lu48    8LEAH maryam42  R 4-16:29:57      1 cn131
+             79937      lu48   adchem   robwol  R    2:26:47      1 cn113
+             79938      lu48   adchem   robwol  R    2:26:47      1 cn064
+             79939      lu48   adchem   robwol  R    2:26:47      1 cn115
+             79940      lu48   adchem   robwol  R    2:26:47      1 cn116
+             79877      lu48   CuCo15  nseom19  R    2:26:47      1 cn117
+             79878      lu48   NiCo15  nseom19  R    2:26:47      1 cn065
+             79933      lu48   adchem   robwol  R    3:43:13      1 cn038
+             72889      lu48   1LA-tz maryam42  R 4-16:21:43      1 cn012
+             72891      lu48  2DLA-tz maryam42  R 4-16:18:20      1 cn151
+             72888      lu48   1LAHtz maryam42  R 4-16:22:51      1 cn037
+             75062      lu48   900K_v  nseom19  R 1-06:45:32      1 cn028
+             73762      lu48 11LtzbAH maryam42  R 3-01:09:36      1 cn082
+             79803      lu48      HEM    sonia  R    7:53:15      1 cn055
+             79802      lu48      HEM    sonia  R    7:54:01      1 cn054
+             80012      lu48     TfR2     erna  R    4:07:32      1 cn002
+             79870      lu48 run.psi4     vivy  R    6:27:36      1 cn084
+             79925      lu48     TfT1     erna  R    5:41:34      1 cn024
+             79876      lu48 run.psi4     vivy  R    6:19:36      1 cn112
+             79873      lu48 run.psi4     vivy  R    6:25:36      1 cn096
+             79826      lu48 run.psi4     vivy  R    7:21:01      1 cn002
+             80079      lu48 _interac     vivy  R    2:35:30      1 cn063
+             80035      lu48 run.psi4     vivy  R    3:43:31      1 cn083
+             80030      lu48 run.psi4     vivy  R    3:51:32      1 cn072
+             80008      lu48     TfR2     erna  R    4:15:32      1 cn002
+             79956      lu48     TfT1     erna  R    5:31:34      1 cn024
+             79892      lu48    TfHIE     erna  R    6:05:35      1 cn024
+             79882      lu48     TfT1     erna  R    6:13:35      1 cn024
+             79837      lu48 Tf1_1.05     erna  R    6:58:48      1 cn002
+             79838      lu48 Tf1_1.05     erna  R    6:58:48      1 cn002
+             79839      lu48 Tf1_1.05     erna  R    6:58:48      1 cn002
+             79841      lu48 Tf1_1.05     erna  R    6:58:48      1 cn002
+             79842      lu48 Tf1_1.05     erna  R    6:58:48      1 cn002
+             77311      lu48  Tf_1.05     erna  R   22:28:23      1 cn024
+             76548      lu48 q_Qmmm_6   kosala  R 1-02:17:46      1 cn058
+             73760      lu48  9LtzbA- maryam42  R 3-05:45:17      1 cn140
+             73758      lu48  9LtzbAH maryam42  R 3-05:47:18      1 cn036
+             73749      lu48 2DLAHbtz maryam42  R 3-05:53:59      1 cn132
+             74802      lu48      3-1     erna  R 1-23:31:04      1 cn058
+             79805      lu48 batch_co    marie  R    7:51:31      2 cn[137,150]
+             79801      lu48 sheperin    marie  R    7:54:32      2 cn[052-053]
+             79798      lu48 sheperin    marie  R    7:56:09      2 cn[181-182]
+             79795      lu48 sheperin    marie  R    7:59:19      2 cn[177,179]
+             79598      lu48 sheperin    marie  R    8:05:13      2 cn[171,176]
+kro1067er@cosmos2:~/git/MNXB11-homework/homework5\[?2004h[ro1067er@cosmos2 homework5]$ squeue -u -r[K[Kro1067er
+[?2004l             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+             80175      lu48 first_jo ro1067er  R       0:16      1 cn024
+             80174      lu48 first_jo ro1067er  R       0:19      1 cn024
+             80173      lu48 first_jo ro1067er  R       0:38      1 cn002
+kro1067er@cosmos2:~/git/MNXB11-homework/homework5\[?2004h[ro1067er@cosmos2 homework5]$ saa[Kcct -j job_id
+[?2004lsacct: fatal: Bad job/step specified: job_id
+kro1067er@cosmos2:~/git/MNXB11-homework/homework5\[?2004h[ro1067er@cosmos2 homework5]$ saa[K[K[Ksacct -j job_id[K[K[K[K[K[K80175
+[?2004lJobID           JobName  Partition    Account  AllocCPUS      State ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+80175         first_job       lu48 lu2023-7-4          1    RUNNING      0:0 
+80175.batch       batch            lu2023-7-4          1    RUNNING      0:0 
+80175.extern     extern            lu2023-7-4          1    RUNNING      0:0 
+kro1067er@cosmos2:~/git/MNXB11-homework/homework5\[?2004h[ro1067er@cosmos2 homework5]$ scancel 80174
+[?2004lkro1067er@cosmos2:~/git/MNXB11-homework/homework5\[?2004h[ro1067er@cosmos2 homework5]$ scancel 80174acct -j 80175job_idqueue -u ro1067er
+[?2004l             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+             80175      lu48 first_jo ro1067er  R       1:57      1 cn024
+             80173      lu48 first_jo ro1067er  R       2:19      1 cn002
+kro1067er@cosmos2:~/git/MNXB11-homework/homework5\[?2004h[ro1067er@cosmos2 homework5]$ ls
+[?2004l[0m[01;32mro1067er-homework5-solution.sh[0m  slurm-80169.out  slurm-80174.out
+screenlog.0                     slurm-80173.out  slurm-80175.out
+kro1067er@cosmos2:~/git/MNXB11-homework/homework5\[?2004h[ro1067er@cosmos2 homework5]$ exit
+[?2004lexit
