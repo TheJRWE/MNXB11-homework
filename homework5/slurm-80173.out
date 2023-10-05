@@ -1,0 +1,18 @@
+cn002
+ 17:04:41 up 9 days, 21:04,  0 users,  load average: 29.14, 29.31, 29.99
+Filesystem             Size  Used Avail Use% Mounted on
+devtmpfs               4.0M     0  4.0M   0% /dev
+tmpfs                  126G   39G   87G  31% /dev/shm
+tmpfs                   51G  335M   50G   1% /run
+/dev/nvme0n1p3          63G  5.5G   54G  10% /
+/dev/nvme0n1p2         974M  311M  596M  35% /boot
+/dev/nvme0n1p5         125G   12G  108G  10% /var
+/dev/nvme0n1p1         599M  7.0M  592M   2% /boot/efi
+/dev/nvme0n1p6         1.6T  101G  1.4T   7% /local
+cosmos-sw:/sw          7.0T  1.1T  5.6T  16% /sw
+cobbler:/share/common  261G  178G   70G  73% /share/nfs-cobbler
+aurora2:/fast/sw       5.2T  4.4T  599G  89% /sw_aurora2
+home                   257T   36T  221T  14% /home
+lunarc                 2.4P  1.2P  1.3P  49% /lunarc
+Entries in /etc: 288
+Entries in /usr/bin: 1852
