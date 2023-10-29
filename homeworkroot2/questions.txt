@@ -1,0 +1,17 @@
+1: struct has public members by default while class has private members.
+Hence with struct the members such as variables and functions are accesible from outside the struct.
+
+2: Changed the name to HWroot2 since it is the 2nd root homework.
+
+3: Since we are working in root. Many classes in root comes from TObject and thus sharing the same base components.
+
+4: It is compiling without errors.
+
+5-7: Should be working as intended I believe?
+
+8: Kind of works.
+
+9: Can't seem to make it work. Gave up.
+
+
+
