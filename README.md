@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MNXB11-project-template
 # About
 This folder contains a skeleton for your project that you can use as
@@ -72,3 +73,6 @@ make -j8 install # If you are on an 8-core machine
 Make sure to document how to do this for any library you choose to use!
 
 Have fun!
+=======
+# MNXB11-homework
+>>>>>>> aefa742 (Initial commit)
